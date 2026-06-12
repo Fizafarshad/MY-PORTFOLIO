@@ -1,0 +1,82 @@
+/* Page Background */
+body {
+    background: linear-gradient(135deg, #ffb6c1, #ffc0cb, #ffd1dc);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4a004a;
+}
+
+/* Main Container */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 40px 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+/* Profile Icon */
+.profile-img i {
+    font-size: 120px;
+    color: #ff1493;
+}
+
+/* Sections */
+.section {
+    background: rgba(255, 255, 255, 0.5);
+    margin: 20px 0;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+/* Skills */
+.skills span {
+    display: inline-block;
+    background: #ff69b4;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn,
+.project-btn {
+    display: inline-block;
+    background: #ff1493;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn:hover,
+.project-btn:hover {
+    background: #c71585;
+    transform: translateY(-2px);
+}
+
+/* Project Card */
+.project-card {
+    background: #ffe4ec;
+    padding: 20px;
+    border-radius: 15px;
+    border-left: 5px solid #ff1493;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #800040;
+}
